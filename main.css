@@ -1,0 +1,80 @@
+.main{
+    margin-top: 86px;
+}
+
+#services-grid{
+    margin:20px;
+    height: 80vh;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.service1{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.service2{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.service3{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.service4{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.service5{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.service6{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.service7{
+    background-color: blanchedalmond;    
+    border: 1px solid black;
+}
+.service8{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+#key-features{
+    background-color: #f73378;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title{
+    color: whitesmoke;
+    margin: 32px;
+}
+
+.key-feature-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.key-feature{
+    display: inline-block;
+    width:33%
+}
+.key-feature-description{
+    text-align: center;
+    font-weight:500;
+    color: whitesmoke;
+}
+
+.key-feature-image{
+    /* display: inline-block; */
+    margin:0px auto;
+    background-color: thistle;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%
+}
