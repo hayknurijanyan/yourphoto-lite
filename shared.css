@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin: 86px;
 }
 
 body{
     margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', sans-serif
+    font-family: 'Istok Web', sans-serif;
 }
-
-
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
+    box-shadow: 0px 1px 6px 1px rgb(70, 70, 70);
 }
 .main-logo:hover{
     cursor: pointer;

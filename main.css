@@ -1,53 +1,141 @@
-.main{
+
+body{
     margin-top: 86px;
 }
 
-#services-grid{
-    margin:20px;
-    height: 80vh;
-    background-color: grey;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
+#slider{
+    height: 700px;
+    background:url(imgs/hero.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.service1{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+.section-title{
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    margin-bottom: 80px;
+    margin-top: 0;
+
 }
-.service2{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+
+section-description{
 }
-.service3{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+
+#prints{
+    height: 900px;
+    padding: 50px;
+    background-color: rgb(243, 243, 243);
 }
-.service4{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+
+
+.print-sizes{
+    /* background-color: blueviolet; */
+    height: 520px;
+    justify-content: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows:250px 250px;
 }
-.service5{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+
+.print-size1{
+    background:url(photos/passport.JPG);
+    background-size: cover;
+    border-radius: 4px;
+ 
 }
-.service6{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+.print-size2{
+    background:url(photos/squere.JPG);
+    background-size: cover;
+    border-radius: 4px;
 }
-.service7{
-    background-color: blanchedalmond;    
-    border: 1px solid black;
+.print-size3{
+    background:url(photos/standard.JPG);
+    background-size: cover;
+    border-radius: 4px;
 }
-.service8{
-    background-color: blanchedalmond;
-    border: 1px solid black;
+.print-size4{
+    background:url(photos/medium.JPG);
+    background-size: cover;
+    border-radius: 4px;
+}
+.print-size5{
+    background:url(photos/A5.JPG);
+    background-size: cover;
+    border-radius: 4px;
+}
+.print-size6{
+    background:url(photos/letter.JPG);
+    background-size: cover;
+    border-radius: 4px;
+}
+.print-size7{
+    background:url(photos/A4.JPG);
+    background-size: cover;
+    border-radius: 4px;
+}
+.print-size8{
+    background:url(photos/A3.JPG);
+    background-size: cover;
+    border-radius: 4px;
+}
+
+#ideas{
+    padding: 50px;
+    height: 850px;
+}
+
+.ideas-articles{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ideas-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ideas-article figcaption{
+ padding: 0 35px 0 35px;
+}
+
+.ideas-article h2{
+
+}
+
+.ideas-img1{
+    background: url(ideas/1.jpg);
+    background-size: cover;
+    height: 330px;
+    width: 420px;
+}
+
+.ideas-img2{
+    background: url(ideas/2.jpg);
+    background-size: cover;
+    height: 330px;
+    width: 420px;
+}
+
+.ideas-img3{
+    background: url(ideas/3.jpg);
+    background-size: cover;
+    height: 330px;
+    width: 420px;
 }
 
 #key-features{
-    background-color: #f73378;
+    background-color: #262935;
     margin-top: 80px;
     padding: 16px;
+    height: 600px;
 }
 
 #key-features .section-title{
