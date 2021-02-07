@@ -1,168 +1,200 @@
-
-body{
-    margin-top: 86px;
+body {
+  margin-top: 86px;
 }
 
-#slider{
-    height: 700px;
-    background:url(imgs/hero.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
+#slider {
+  height: 700px;
+  background: url(imgs/hero.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.section-title{
-    font-weight: 600;
-    font-size: xx-large;
-    text-align: center;
-    color: rgb(54, 54, 54);
-    margin-bottom: 80px;
-    margin-top: 0;
-
+.section-title {
+  font-weight: 600;
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(54, 54, 54);
+  margin-bottom: 80px;
+  margin-top: 0;
 }
 
-section-description{
+section-description {
 }
 
-#prints{
-    height: 900px;
-    padding: 50px;
-    background-color: rgb(243, 243, 243);
+#prints {
+  height: 900px;
+  padding: 50px;
+  background-color: rgb(243, 243, 243);
 }
 
-
-.print-sizes{
-    /* background-color: blueviolet; */
-    height: 520px;
-    justify-content: center;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows:250px 250px;
+.print-sizes {
+  /* background-color: blueviolet; */
+  height: 520px;
+  justify-content: center;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 250px 250px;
 }
 
-.print-size1{
-    background:url(photos/passport.JPG);
-    background-size: cover;
-    border-radius: 4px;
- 
+.print-size1 {
+  background: url(photos/passport.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
-.print-size2{
-    background:url(photos/squere.JPG);
-    background-size: cover;
-    border-radius: 4px;
+.print-size2 {
+  background: url(photos/squere.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
-.print-size3{
-    background:url(photos/standard.JPG);
-    background-size: cover;
-    border-radius: 4px;
+.print-size3 {
+  background: url(photos/standard.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
-.print-size4{
-    background:url(photos/medium.JPG);
-    background-size: cover;
-    border-radius: 4px;
+.print-size4 {
+  background: url(photos/medium.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
-.print-size5{
-    background:url(photos/A5.JPG);
-    background-size: cover;
-    border-radius: 4px;
+.print-size5 {
+  background: url(photos/A5.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
-.print-size6{
-    background:url(photos/letter.JPG);
-    background-size: cover;
-    border-radius: 4px;
+.print-size6 {
+  background: url(photos/letter.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
-.print-size7{
-    background:url(photos/A4.JPG);
-    background-size: cover;
-    border-radius: 4px;
+.print-size7 {
+  background: url(photos/A4.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
-.print-size8{
-    background:url(photos/A3.JPG);
-    background-size: cover;
-    border-radius: 4px;
-}
-
-#ideas{
-    padding: 50px;
-    height: 850px;
+.print-size8 {
+  background: url(photos/A3.JPG);
+  background-size: cover;
+  border-radius: 4px;
 }
 
-.ideas-articles{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+#ideas {
+  padding: 50px;
+  height: 850px;
 }
 
-.ideas-article{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.ideas-articles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.ideas-article figcaption{
- padding: 0 35px 0 35px;
+.ideas-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.ideas-article h2{
-
+.ideas-article figcaption {
+  padding: 0 35px 0 35px;
 }
 
-.ideas-img1{
-    background: url(ideas/1.jpg);
-    background-size: cover;
-    height: 330px;
-    width: 420px;
+.ideas-article h2 {
 }
 
-.ideas-img2{
-    background: url(ideas/2.jpg);
-    background-size: cover;
-    height: 330px;
-    width: 420px;
+.ideas-img1 {
+  background: url(ideas/1.jpg);
+  background-size: cover;
+  height: 330px;
+  width: 100%;
 }
 
-.ideas-img3{
-    background: url(ideas/3.jpg);
-    background-size: cover;
-    height: 330px;
-    width: 420px;
+.ideas-img2 {
+  background: url(ideas/2.jpg);
+  background-size: cover;
+  height: 330px;
+  width: 80%;
 }
 
-#key-features{
-    background-color: #262935;
-    margin-top: 80px;
-    padding: 16px;
-    height: 600px;
+.ideas-img3 {
+  background: url(ideas/3.jpg);
+  background-size: cover;
+  height: 330px;
+  width: 100%;
 }
 
-#key-features .section-title{
-    color: whitesmoke;
-    margin: 32px;
+#key-features {
+  background-color: #262935;
+  margin-top: 80px;
+  padding: 50px;
+  height: 700px;
 }
 
-.key-feature-list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.key-feature{
-    display: inline-block;
-    width:33%
-}
-.key-feature-description{
-    text-align: center;
-    font-weight:500;
-    color: whitesmoke;
+#key-features h1 {
+  color: whitesmoke;
 }
 
-.key-feature-image{
-    /* display: inline-block; */
-    margin:0px auto;
-    background-color: thistle;
-    width: 128px;
-    height: 128px;
-    border-radius: 50%
+.key-features-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.key-feature img {
+  width: 250px;
+}
+
+.key-feature h3 {
+  text-align: center;
+  font-size: x-large;
+  color: whitesmoke;
+}
+
+.key-feature p {
+  text-align: center;
+  width: 250px;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+#delivery {
+  padding: 50px;
+}
+
+.delivery-container {
+  display: flex;
+}
+
+.delivery-container img {
+  padding: 30px;
+  height: 360px;
+}
+
+.delivery-container figcaption {
+  padding: 20px;
+}
+
+#about {
+  background-color: rgb(243, 243, 243);
+  padding: 50px;
+  height: 900px;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-container img {
+  height: 300px;
+  display: flex;
+  padding: 20px;
+}
+
+.about-container figcaption {
+  height: 300px;
+  padding: 20px;
 }
