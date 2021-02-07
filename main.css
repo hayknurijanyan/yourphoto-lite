@@ -174,6 +174,11 @@ section-description {
   height: 360px;
 }
 
+.delivery-container p{
+  font-size: large;
+  font-weight: 500;
+}
+
 .delivery-container figcaption {
   padding: 20px;
 }
@@ -188,13 +193,59 @@ section-description {
   display: flex;
 }
 
-.about-container img {
-  height: 300px;
-  display: flex;
-  padding: 20px;
-}
-
 .about-container figcaption {
   height: 300px;
   padding: 20px;
 }
+
+.about-container img {
+
+  width: 600px;
+  display: flex;
+  padding: 20px;
+}
+
+.about-container h3 {
+  font-size: x-large;
+  font-weight: 600;
+}
+.about-container p {
+  font-size: large;
+  font-weight: 500;
+}
+
+
+#contact{
+  height: 700px;
+  padding: 50px;
+}
+
+.contact-form-container{
+  margin: 80px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-form input{
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 3px;
+  outline: none;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.contact-form textarea{
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+
+
