@@ -30,8 +30,10 @@ body {
   cursor: pointer;
 }
 .main-footer {
-  background-color: rgb(32, 31, 31);
+  background-color: #262935;
+  display: flex;
   padding: 32px;
+  height: 200px;
   margin-top: 48px;
 }
 
@@ -54,6 +56,30 @@ body {
   border-bottom: 2px solid #f73378;
   text-decoration: none;
 }
+
+
+.footer-about{
+  background-color: crimson;
+  height: 100%;
+}
+
+.footer-nav{
+  background-color: rgb(107, 67, 75);
+  height: 100%;
+}
+
+.footer-payments{
+  background-color: rgb(255, 216, 224);
+  height: 100%;
+  width: 300px;
+}
+.footer-contacts{
+  background-color: rgb(36, 14, 19);
+  height: 100%;
+  width:300px
+}
+
+
 
 .main-header > div {
   margin-left: 30px;

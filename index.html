@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>YourPhoto Lite</title>
 </head>
 
@@ -180,34 +181,66 @@
         </section>
 
         <section id="contact">
-            <h1 class="section-title">Contact Us</h1>
-            <div class="contact-form-container">
+            <h1 class="section-title">Get In Touch With Us</h1>
+            <div class="contact-container">
                 <!-- <form class="contact-form" action="">
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="E-mail">
                     <textarea name="contact-form-textarea" id="contact-textarea" cols="30" rows="16"
                         placeholder="Enter your message here"></textarea>
                 </form> -->
-                <div class="contact-form-map">
-                    <div class="mapouter"><div class="gmap_canvas"><iframe width="650" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=yerevan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:650px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:650px;}</style></div></div>
+                <div class="contact-map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="700" height="450" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=yerevan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://yt2.org"></a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 450px;
+                                    width: 700px;
+                                }
+                            </style>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 450px;
+                                    width: 700px;
+                                }
+                            </style>
+                        </div>
+                    </div>
                 </div>
                 <div class="contact-details">
-                    <h2>Get in touch with us</h2>
+                    <h2>Contacts</h2>
                     <div class="contact-detail-item">
-                        <i class="fa fa-map-marker" aria-hidden="true" ></i>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
                         <span>Address: H. Paronyan 6, Yerevan, Armenia</span>
                     </div>
                     <div class="contact-detail-item">
-                        <i class="fa fa-phone" aria-hidden="true" ></i>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
                         <span>Phone: 077 54 04 54</span>
                     </div>
                     <div class="contact-detail-item">
-                        <i class="fa fa-whatsapp" aria-hidden="true" style="color:green"></i>
-                        <span><mark>Whatsapp: +37477540454</mark></span>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span>Facebook: <a
+                                href="https://www.facebook.com/yourphotoprinting">YourPhotoPrinting</a></span>
+                    </div>
+
+                    <div class="contact-detail-item">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span>Instagram: <a href="https://www.instagram.com/yourphoto.am">@yourphoto.am</a></span>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        <span>Whatsapp/Viber: +37477540454</span>
                     </div>
                     <div class="contact-detail-item">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <span>Email: yourphotoprints@gmail.com</span>
+                        <span><mark>Email: yourphotoprints@gmail.com</mark></span>
                     </div>
 
                     <h3>Working Hours</h3>
@@ -223,14 +256,38 @@
     <!---------------X----MAIN-----X--------------------->
     <!---------------------FOOTER----------------------->
     <footer class="main-footer">
-        <nav>
+        <div class="footer-about">
+            <img src="imgs/logo-text.png" alt="" width="100px">
+            <p>YourPhoto is the first Armenian Photo printing app founded in 2017.</p>
+        </div>
+        <nav class="footer-nav">
             <ul class="main-footer-links">
                 <li class="main-footer-link"><a href="#">Support</a></li>
                 <li class="main-footer-link"><a href="#">Terms of Use</a></li>
             </ul>
         </nav>
+        <div class="footer-payments">
+
+        </div>
+        <div class="footer-contacts">
+
+        </div>
     </footer>
     <!------------X----FOOTER---X---------------------->
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5c59946a6cb1ff3c14cb321a/1eu1ga0pk';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
