@@ -194,7 +194,6 @@ section-description {
 }
 
 .about-container figcaption {
-
   padding: 20px;
 }
 
@@ -223,7 +222,7 @@ section-description {
   display: flex;
   justify-content: center;
 
-  flex-direction: row; 
+  flex-direction: row;
   padding: 20px;
 }
 
@@ -297,14 +296,11 @@ section-description {
   font-weight: 600;
 }
 
-.contact-detail-item a{
+.contact-detail-item a {
   text-decoration: none;
   color: rgb(73, 74, 77);
 }
 
-.contact-detail-item a:hover{
+.contact-detail-item a:hover {
   border-bottom: 2px solid #f73378;
 }
-
-
-
