@@ -77,6 +77,30 @@ section-description {
   background-color: rgb(243, 243, 243);
 }
 
+.prints-header-items{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  list-style-type: none;
+  height: 30px;
+  padding-left: 0px;
+}
+
+.prints-header-items li{
+  margin: 0 23px;
+}
+
+.prints-header-item1{
+  margin: 0 23px;
+  border-bottom: 2px solid #f73378;
+}
+
+
+.prints-header-items li:hover{
+  cursor: pointer;
+  /* border-bottom: 2px solid #f73378; */
+}
+
 .print-sizes {
   /* background-color: blueviolet; */
   height: 520px;
