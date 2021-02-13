@@ -32,13 +32,13 @@ body {
 
 #footer {
   background-color: #262935;
-  height: 260px;
+  height: 400px;
 }
 
 .main-footer {
   display: flex;
   padding: 32px;
-  height: 200px;
+  height: 343px;
   margin-top: 48px;
 }
 
