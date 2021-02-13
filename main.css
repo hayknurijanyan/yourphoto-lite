@@ -4,7 +4,7 @@ body {
 
 #slider {
   height: 700px;
-  background: url(imgs/hero.jpg);
+  background-image: url(slideshow/1.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -304,6 +304,7 @@ section-description {
 
 .about-container img {
   width: 600px;
+  height: 620px;
   display: flex;
   padding: 20px;
 }
@@ -315,6 +316,8 @@ section-description {
 .about-container p {
   font-size: large;
   font-weight: 500;
+  max-height: 600px;
+  overflow: hidden;
 }
 
 #contact {
