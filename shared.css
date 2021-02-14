@@ -15,20 +15,30 @@ body {
   align-items: center;
   width: 100%;
   background-color: whitesmoke;
-  padding: 8px 16px;
+  padding: 8px 80px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
-  box-shadow: 0px 1px 6px 1px rgb(70, 70, 70);
+  box-shadow: 0px 1px 7px 1px rgb(80, 80, 80);
 }
 
 .main-logo {
-  font-size: larger;
   color: #262935;
 }
 .main-logo a {
   color: #262935;
+  text-decoration: none;
+  /* font-weight: 200; */
+}
+
+.main-logo span{
+  font-weight: 100;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 24px;
 }
 
 .main-logo:hover {
@@ -180,13 +190,13 @@ body {
   vertical-align: middle;
 }
 .logo-text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
   vertical-align: middle;
   color: whitesmoke;
   text-decoration: none;
   font-size: larger;
-  font-weight: 100;
+  font-weight: 100; */
 }
 
 .nav {
@@ -207,16 +217,16 @@ body {
 }
 
 .nav-item a {
-  color: whitesmoke;
   color: #262935;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 17px;
   text-decoration: none;
   pad: 20px 0;
 }
 
 .nav-item a:hover,
 .nav-item a:active {
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 1px solid #262935;
   /* color: #e9c2c5; */
 }
 
