@@ -83,7 +83,7 @@ section-description {
 }
 
 #prints {
-  height: 900px;
+  height: 960px;
   padding: 50px;
   background-color: var(--lightBackground);
 }
@@ -102,7 +102,7 @@ section-description {
   margin: 0 23px;
 }
 
-.prints-header-item1 {
+.active {
   margin: 0 23px;
   border-bottom: 2px solid var(--secondary);
 }
@@ -110,6 +110,8 @@ section-description {
 .prints-header-items li:hover {
   cursor: pointer;
 }
+
+
 
 .print-sizes {
   /* background-color: blueviolet; */
@@ -184,6 +186,26 @@ section-description {
   background: url(photos/A3.JPG);
   background-size: cover;
   border-radius: 4px;
+}
+
+.special-prints{
+  display: flex;
+  justify-content: center;
+}
+
+.collage-prints{
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-prints{
+  display: flex;
+  justify-content: center;
+}
+
+.accessories{
+  display: flex;
+  justify-content: center;
 }
 
 #ideas {

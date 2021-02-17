@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="fav-icon.png">
     <link rel="stylesheet" href="shared.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>YourPhoto Lite</title>
 </head>
@@ -32,7 +32,7 @@
                 <li class="nav-item"><a href="#delivery">DELIVERY</a></li>
                 <li class="nav-item"><a href="#about">ABOUT US</a></li>
                 <li class="nav-item"><a href="#contact">CONTACTS</a></li>
-                <li class="nav-item nav-item-cta"><a href="/packages/index.html">ORDER NOW</a></li>
+                <li class="nav-item nav-item-cta"><a href="/order/index.html">ORDER NOW</a></li>
             </ul>
         </nav>
     </header>
@@ -50,7 +50,7 @@
                 <p>Turn your family’s favorite moments from
                     the year into lasting additions that make
                     any space feel like home.</p>
-                <a class="default-button" href="">GET STARTED</a>
+                <a class="default-button" href="order/index.html">GET STARTED</a>
             </div>
         </section>
 
@@ -62,79 +62,96 @@
                 <h1 class="section-title">Explore features of Photo Prints
                 </h1>
                 <ul class="prints-header-items">
-                    <li class="prints-header-item1">STANDARD PRINTS</li>
-                    <li class="prints-header-item2">SPECIAL PRINTS</li>
-                    <li class="prints-header-item3">COLLAGE</li>
-                    <li class="prints-header-item4">CALENDAR</li>
-                    <li class="prints-header-item5">STORE</li>
+                    <li class="prints-header-item1 standard product-button active">STANDARD PRINTS</li>
+                    <li class="prints-header-item2 special product-button">SPECIAL PRINTS</li>
+                    <li class="prints-header-item3 collage product-button">COLLAGE</li>
+                    <li class="prints-header-item4 calendar product-button">CALENDAR</li>
+                    <li class="prints-header-item5 store product-button">STORE</li>
+                    <li class="">SEE ALL ></li>
                 </ul>
             </header>
-            <div class="print-sizes">
-                <div class="print-size1">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>3.5 x 4.5</span>
-                            <span>100 AMD</span>
+            <div class="print-products">
+                <div id="standard" class="print-sizes">
+                    <div class="print-size1">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>3.5 x 4.5</span>
+                                <span>100 AMD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-size2">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>10 x 10</span>
+                                <span>80 AMD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-size3">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>10 x 15</span>
+                                <span>70 AMD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-size4">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>13 x 18</span>
+                                <span>120 AMD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-size5">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>A5</span>
+                                <span>250 AMD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-size6">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>21 x 28</span>
+                                <span>400 AMD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-size7">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>A4</span>
+                                <span>500 AMD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-size8">
+                        <div class="print-size-detail">
+                            <div class="print-size-detail-item">
+                                <span>A3</span>
+                                <span>2500 AMD</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="print-size2">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>10 x 10</span>
-                            <span>80 AMD</span>
-                        </div>
-                    </div>
+                <div id="special" class="special-prints" style="display: none">
+                    <img src="imgs/special.jpg" alt="">
                 </div>
-                <div class="print-size3">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>10 x 15</span>
-                            <span>70 AMD</span>
-                        </div>
-                    </div>
+                <div id="collage" class="collage-prints" style="display: none">
+                    <img src="imgs/collage.jpg" alt="" width="800px">
                 </div>
-                <div class="print-size4">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>13 x 18</span>
-                            <span>120 AMD</span>
-                        </div>
-                    </div>
+                <div id="calendar" class="calendar-prints" style="display: none">
+                    <img src="imgs/calendar.jpg" alt="" width="800px">
                 </div>
-                <div class="print-size5">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>A5</span>
-                            <span>250 AMD</span>
-                        </div>
-                    </div>
+                <div id="store" class="accessories" style="display: none">
+                    <img src="imgs/calendar.jpg" alt="" width="800px">
                 </div>
-                <div class="print-size6">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>21 x 28</span>
-                            <span>400 AMD</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="print-size7">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>A4</span>
-                            <span>500 AMD</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="print-size8">
-                    <div class="print-size-detail">
-                        <div class="print-size-detail-item">
-                            <span>A3</span>
-                            <span>2500 AMD</span>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+
         </section>
 
         <section id="ideas">

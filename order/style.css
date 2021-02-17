@@ -1,0 +1,39 @@
+:root {
+    --main: whitesmoke;
+    --dark: #262935;
+    --secondary: #f73378;
+    /* --secondary: #34b0fd; */
+    --lightBackground: rgb(243, 243, 243);
+    --defaultGrey: ;
+    --textDark: #262935;
+    --textLight: whitesmoke;
+  }
+  
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin: 76px;
+  }
+
+#main{
+    /* padding-top:32px; */
+    height: 1200px;
+}
+
+#main header{
+    background-color: steelblue;
+    height: 200px;
+}
+
+.upload{
+    background-color: slategrey;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-photos{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(139, 147, 155);
+}
