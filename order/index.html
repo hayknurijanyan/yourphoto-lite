@@ -39,15 +39,24 @@
     </header>
     <main id="main">
         <header>
-
+            <button class="main-upload-btn" onclick="document.getElementById('browse').click()">
+                Upload Photos
+            </button>
+            <div class="main-quantity">
+                Quantity:
+            </div>
         </header>
-        <section id="crop">
+        <section id="crop" style="display: none;">
 
         </section>
         <section id="upload">
+            <div>
+            </div>
             <div class="upload-previews">
-                 <input id="browse" type="file" onchange="previewFiles()" multiple>
-                 <div class="" id="preview"></div>
+                <button class="upload-btn" onclick="document.getElementById('browse').click()"
+                    style="display: none;">Add Images</button>
+                <input id="browse" type="file" onchange="previewFiles()" multiple style="display: none;">
+                <div class="" id="preview"></div>
             </div>
         </section>
     </main>
