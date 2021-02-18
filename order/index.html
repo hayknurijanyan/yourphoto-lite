@@ -41,20 +41,14 @@
         <header>
 
         </header>
-        <section class="upload">
-            <!-- <div class="upload-button"></div> -->
-            <div class="upload-photos">
-                <input type="file" name="inpFile" id="inpFile" multiple>
-                <div class="image-preview" id="imagePreview">
-                    <img src="" alt="" class="image-preview-img">
-                    <img src="../imgs/carrousel_10.jpg" alt="" class="image-preview-img" width="120px">
-                    <img src="../imgs/carrousel_10.jpg" alt="" class="image-preview-img" width="120px">
-                    <img src="../imgs/carrousel_10.jpg" alt="" class="image-preview-img" width="120px">
-                    <span class="image-preview-text">Pleas Select A File</span>
-                </div>
+        <section id="crop">
 
+        </section>
+        <section id="upload">
+            <div class="upload-previews">
+                 <input id="browse" type="file" onchange="previewFiles()" multiple>
+                 <div class="" id="preview"></div>
             </div>
-            <!-- <div class="upload-preview"></div> -->
         </section>
     </main>
     <!---------------------FOOTER----------------------->
